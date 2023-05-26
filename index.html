@@ -5,15 +5,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="stylesheets\stylesheet.css" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheets\stylesheet.css">
+    <link rel="jppicture" href="images\jpcvpicture.jpg">
     <title>ITW_Final Digital Resumé</title>
 </head>
 
 <body>
     <header>
         <div class="heroimage">
-            <div class="profilepicture">
-                <img src="" alt="">
+            <div>
+                <picture>
+                    <source media="(max-width: 650px)" srcset="">
+                    <sourc emedia="(max-width: 1000px)" srcset="">
+                    <img src="images\jpcvpicture.jpg" alt="jppicture" width="400px" height="300px">
+                </picture>
                 <div class="hero-text">
                     <h1>Jacques-Pierre</h1>
                     <p>And I'm a Draughtsman/Cad Operator</p>
@@ -23,7 +28,7 @@
     </header>
 
     <nav>
-        <a href="#Introductory">introductory statement</a>
+        <a href="#Introductory">Introductory Statement</a>
         <a href="#Eduction">Education</a>
         <a href="#Hobbies and Interest">Hobbies & Interest</a>
         <a href="#Skills">Skills</a>
@@ -129,7 +134,6 @@
             </section>
 
             <section>
-                <h6>Email</h6>
                 <form action="https://formsubmit.co/jpvank@gmail.com" method="POST">
                     <label for="email">Email:</label>
                     <br>

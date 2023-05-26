@@ -1,0 +1,36 @@
+body {
+    
+}
+
+.heroimage {
+    background-image: url("https://github.com/JPVANK147/digital-resume/blob/main/images/Seabackground.jpg?raw=true");
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
+
+.hero-text {
+    text-align:center;
+    position: relative;
+    left: 270px;
+}
+
+img {
+    position: relative;
+    left: 290px;
+    top: 160px;
+    border-style: groove;
+    border-color: rgba(70, 70, 70, 0.404);
+    border-radius: 15px;
+}
+
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "nav article ads"
+        "footer footer footer";
+    grid-template-rows: 60px 1fr 60px;
+    grid-template-columns: 20% 1fr 15%;
+    grid-gap: 10px;
+    height: 100vh;
+    margin: 0;
