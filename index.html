@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="stylesheets\stylesheet.css">
     <link rel="jppicture" href="images\jpcvpicture.jpg">
     <link rel="drawing" href="images\drawing.JPG">
+    <link rel="hobbieimg" href="images\hobbieimg.JPG">
     <title>ITW_Final Digital Resumé</title>
 </head>
 
@@ -17,7 +18,7 @@
             <div>
                 <picture>
                     <source media="(max-width: 650px)" srcset="">
-                    <sourc emedia="(max-width: 1000px)" srcset="">
+                    <source media="(max-width: 1000px)" srcset="">
                         <img src="images\jpcvpicture.jpg" alt="jppicture" width="400px" height="300px">
                 </picture>
                 <div class="hero-text">
@@ -48,6 +49,9 @@
             <div class="flex">
                 <a href="#Contact Details">Contact Details</a>
             </div>
+            <div class="flex">
+                <a href="#Email">Email</a>
+            </div>
         </div>
     </nav>
 
@@ -56,7 +60,7 @@
             <section class="statement-grid">
                 <div>
                     <h2 id="introductory">Introductory Statement</h2>
-                    <p>
+                    <p class="text1">
                         When I was young, I loved to draw and sketch
                         from my imagination. My dream was and still
                         is to design something that leaves a legacy,
@@ -78,7 +82,7 @@
             <section class="education-grid">
                 <h3 id="Education">Education</h3>
                 <div>High School Nelspruit</div>
-                <p>
+                <p class="text1">
                     GRADE 12
                     <br>
                     Qualify with National Senior Certificate and completed with a minimum requirement
@@ -86,20 +90,20 @@
                     2012
                 </p>
                 <div>Metamotho (Potential/chatacter and Development)</div>
-                <p>
+                <p class="text1">
                     Doxa Deo Pretoria
                     2013
                 </p>
                 <div>5 YEARS OF SERVICE by Plant Design and Project Services Pty Ltd</div>
-                <p>
+                <p class="text1">
                     5 May 2014 to 5 May 2019
                 </p>
                 <div>Certificate of Appreciation by Plant Design and Project Services Pty Ltd</div>
-                <p>
+                <p class="text1">
                     27 June 2018
                 </p>
                 <div>Autocad 2021 Essentials</div>
-                <p>
+                <p class="text1">
                     Autodesk Training Centre at Micrographics (Pty) Ltd
                     Certificate of Completion
                     1 to 3 February 2021
@@ -107,8 +111,8 @@
 
             </section>
             <section class="hobbiesandinterest-grid">
-                <h3 id="hobbiesandinterest">Hobbies & Talents</h3>
-                <ul>
+                <h3 id="Hobbies and Interest">Hobbies & Talents</h3>
+                <ul class="text1">
                     <li>Playing Golf</li>
                     <li>Playing Drums</li>
                     <li>Drawing of Pencil Sketches</li>
@@ -120,22 +124,23 @@
                 </div>
             </section>
             <section class="skills-grid">
-                <h3 id="skills">Skills</h3>
-                <ul>
+                <h3 id="Skills">Skills</h3>
+                <ul class="text1">
+                    <li>Coding in Visual Studio Code</li>
                     <li>Motivation of work employees</li>
                     <li>Excellent in Draughting</li>
                     <li>Pro-active</li>
-                    <li>Goal oriented</li>
+                    <li>Goal riented</li>
                     <li>Problem solving skills</li>
                     <li>Work under pressure</li>
                     <li>Teambuilding</li>
                     <li>Excellent organizational skills</li>
                 </ul>
 
-                <h3 id="workexperience">Work Experience</h3>
+                <h3 id="Work Experience">Work Experience</h3>
                 <div>PLANT DESIGN AND PROJECT SERVICES (PTY) LTD</div>
                 <div>P&ID Converter Draughtsman</div>
-                <ol>
+                <ol class="text1">
                     <li>1 year of Mechanical Flow Diagrams Cadding experience on MicroStation V8i</li>
                     <li>2 years of Mechanical experience on MicroStation V8i</li>
                     <li>2 years of P&ID Converter Draughting on Smart Plant P&ID</li>
@@ -144,35 +149,38 @@
             </section>
         </section>
         <footer class="footer-grid">
-            <section>
-                <div id="Contact Details">Contact Details</div>
+            <section class="footer">
+                <div id="Contact Details" class="contactdetails">Contact Details</div>
+                <br>
                 <nav>
-                    <a href="https://github.com/JPVANK147/Resume">Github</a>
-                    <a href="https://www.linkedin.com/in/jacques-pierre-van-kradenburg-5141631ba/">Linkin</a>
-                    <a href="https://www.facebook.com/jp.vankradenburg.75">Facebook</a>
-                    <a href="https://www.instagram.com/jp_vk_famous/?next=%2F">Instagram</a>
+                    <a href="https://github.com/JPVANK147/Resume" class="button">Github</a>
+                    <a href="https://www.linkedin.com/in/jacques-pierre-van-kradenburg-5141631ba/" class="button">Linkin</a>
+                    <a href="https://www.facebook.com/jp.vankradenburg.75" class="button">Facebook</a>
+                    <a href="https://www.instagram.com/jp_vk_famous/?next=%2F" class="button">Instagram</a>
                 </nav>
             </section>
 
-            <section>
-                <form action="https://formsubmit.co/jpvank@gmail.com" method="POST">
-                    <label for="email">Email:</label>
-                    <br>
-                    <input type="email" name="email" placeholder="example@gmail.com" required>
-                    <br>
-                    <label for="email">Do you have a Email:</label>
-                    <br>
-                    <input type="radio" name="email button" required>
-                    <label for="button">Yes</label>
-                    <input type="radio" name="email button" required>
-                    <label for="button">No</label>
-                    <br>
-                    <label for="Contact details">Get in contact:</label>
-                    <br>
-                    <textarea name="contact you" cols="30" rows="10" placeholder="Get in Contact" optional></textarea>
-                    <br>
-                    <input type="submit" name="submit" value="Submit">
-                </form>
+            <section id="Email">
+                <div class="form-grid">
+                    <form class="form" action="https://formsubmit.co/jpvank@gmail.com" method="POST">
+                        <div class="email">Email:</div>
+                        <label for="email">Do you have a Email:</label>
+                        <br>
+                        <input type="radio" name="email button" required>
+                        <label for="button">Yes</label>
+                        <input type="radio" name="email button" required>
+                        <label for="button">No</label>
+                        <br>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" placeholder="example@gmail.com" required>
+                        <br>
+                        <label for="contactdetails">Get in contact:</label>
+                        <br>
+                        <textarea name="contact you" cols="50" rows="12" placeholder="Get in Contact" optional></textarea>
+                        <br>
+                        <input type="submit" name="submit" value="Submit">
+                    </form>
+                </div>
             </section>
         </footer>
     </main>

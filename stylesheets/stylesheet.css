@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color:rgb(248, 248, 248)
+    background-color: rgb(248, 248, 248)
 }
 
 .heroimage {
@@ -36,7 +36,7 @@ img {
     justify-content: space-evenly;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: black;
+    background-color: rgb(74, 150, 56);
 }
 
 .flex {
@@ -120,3 +120,104 @@ h3 {
     text-decoration-thickness: 2px;
     text-decoration-color: rgb(74, 150, 56);
 }
+
+.hobbiesimg {
+    position: relative;
+    bottom: 210px;
+    right: 50px;
+}
+
+.text1 {
+    color: rgb(74, 150, 56);
+}
+
+.contactdetails {
+    font-size: larger;
+    text-decoration: overline underline;
+    text-decoration-style: double;
+    text-decoration-thickness: 2px;
+    text-decoration-color: rgb(74, 150, 56);
+
+}
+
+.footer {
+    border: double rgb(74, 150, 56);
+    border-spacing: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    border-style: groove;
+    border-radius: 0px;
+    border-color: black;
+    box-shadow: 5px 5px 5px rgb(83, 82, 82);
+}
+
+.button {
+    background-color: rgb(74, 150, 56);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.form-grid {
+    margin-top: 30px;
+    padding: 15px 32px;
+    background-color: white;
+    border-style: groove;
+    border-radius: 0px;
+    border-color: black;
+    box-shadow: 5px 5px 5px rgb(83, 82, 82);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.email {
+    font-size: larger;
+    text-decoration: overline underline;
+    text-decoration-style: double;
+    text-decoration-thickness: 2px;
+    text-decoration-color: rgb(74, 150, 56);
+    padding-bottom: 10px;
+}
+
+input[type=email] {
+    width: 15%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid rgb(74, 150, 56);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    outline: none;
+}
+
+textarea {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid rgb(74, 150, 56);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    outline: none;
+}
+
+input[type=submit] {
+    background-color: rgb(74, 150, 56);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
